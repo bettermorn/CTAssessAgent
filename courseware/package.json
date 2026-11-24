@@ -1,1 +1,16 @@
-
+{
+  "name": "CTAssessment",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build CTAssessment.md --base /CTAssessAgent/courseware/",
+    "dev": "slidev CTAssessment.md --open",
+    "export": "slidev export CTAssessment.md"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.19.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.33"
+  }
+}
